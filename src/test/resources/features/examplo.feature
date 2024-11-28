@@ -17,8 +17,8 @@ Funcionalidade: Comer
     E tomo uma coca "normal"
     Entao eu estarei feliz
 
-  Cenario: Comendo chuchu
+  Cenario: Comendo xuxu
     Dado que eu estou com fome
-    Quando eu como "chuchu"
+    Quando eu como "xuxu"
     E tomo uma coca "zero"
     Entao continuo triste

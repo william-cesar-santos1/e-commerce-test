@@ -19,7 +19,7 @@ public class ExemploPassos {
     @Quando("eu como {string}")
     public void comerPizza(String comida) {
         System.out.println(comida);
-        if (!comida.equalsIgnoreCase("chuchu")) {
+        if (!comida.equalsIgnoreCase("xuxu")) {
             estouFeliz = true;
         }
     }

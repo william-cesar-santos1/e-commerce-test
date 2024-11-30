@@ -15,16 +15,4 @@ public class RestAssuredUtil {
                 .header(HttpHeaders.AUTHORIZATION, "token");
     }
 
-    public static void main(String[] args) {
-        var response = RestAssured.given()
-                .baseUri("http://localhost:8080")
-                .contentType(ContentType.JSON)
-                .accept(ContentType.JSON)
-                .header(HttpHeaders.AUTHORIZATION, "token")
-                .get("/customers");
-
-        response.prettyPrint();
-        response.then().statusCode(200);
-    }
-
 }
